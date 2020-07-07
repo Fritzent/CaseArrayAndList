@@ -33,17 +33,10 @@ fun main() {
 
     }else if(checkUserInput == "2"){
         val usingLinkedList = LinkedList<String>()
-        usingLinkedList.add("Andra")
-        usingLinkedList.add("Wisnu")
-        usingLinkedList.add("Abrar")
-        usingLinkedList.add("Alfi")
-        usingLinkedList.add("Andi")
-        usingLinkedList.add("Andri")
-        usingLinkedList.add("Hanif")
-        usingLinkedList.add("Nanda")
-        usingLinkedList.add("Johan")
-        usingLinkedList.add("Senno")
 
+        for(i in namaAnggotaBinarAndroid){
+            usingLinkedList.add(i)
+        }
         println("$usingLinkedList")
 
         println("Balik ke pilihan?(ya/tidak)")
@@ -53,20 +46,12 @@ fun main() {
         }else{
             println("Terima Kasih")
         }
-//        usingLinkedList.add(namaAnggotaBinarAndroid[])
     }else if(checkUserInput == "3"){
         val usingArrayList = ArrayList<String>()
-        usingArrayList.add("Andra")
-        usingArrayList.add("Wisnu")
-        usingArrayList.add("Abrar")
-        usingArrayList.add("Alfi")
-        usingArrayList.add("Andi")
-        usingArrayList.add("Andri")
-        usingArrayList.add("Hanif")
-        usingArrayList.add("Nanda")
-        usingArrayList.add("Johan")
-        usingArrayList.add("Senno")
 
+        for(i in namaAnggotaBinarAndroid){
+            usingArrayList.add(i)
+        }
         println("$usingArrayList")
 
         println("Balik ke pilihan?(ya/tidak)")
